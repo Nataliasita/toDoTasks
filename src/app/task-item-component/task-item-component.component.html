@@ -1,0 +1,13 @@
+<div class="item-task">
+        <div class="titleTaksDetails">
+                <span><strong>{{item.id}}. Task </strong></span>
+                <span><strong>{{item.name}}</strong></span>
+        </div>
+        <div class="priorityDetails">
+                <span [ngClass]="{'priorityHeigth': item.categories == 'High' , 'priorityMedium':item.categories == 'Medium','priorityLow':item.categories == 'Low'}">{{item.categories}}</span>
+        </div>
+        
+        <span class="descriptionTaksDetails">{{item.description}}</span>
+        <span class="detailsDate">{{item.date_end}}</span>
+        <!-- <span>{{item.status}}</span> -->
+</div>

@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(assets/fonts/font-poppins/Poppins-Regular.ttf) format("opentype");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto,"Poppins Regular"; }
+
+
+/* Tags */
+body,
+div,
+span,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+select,
+img,
+form,
+label,
+footer,
+header,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family:"Poppins Regular";
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+input,
+textarea,
+select{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
